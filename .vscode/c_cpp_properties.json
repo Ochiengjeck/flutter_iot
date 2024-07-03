@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Path/To/Arduino/libraries",  // Include Arduino libraries
+                "C:/Path/To/ESP32/libraries",    // Include ESP32 libraries
+                "C:/Path/To/FirebaseESP32",      // Include FirebaseESP32 library
+                "C:/Path/To/DHTlib"              // Include DHT library
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "ESP32"                         // Define ESP32 if required
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
